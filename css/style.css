@@ -4,8 +4,13 @@
 }
 
 header {
-    background-color: blueviolet;
-    text-align: center;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-bottom-width: 2px;
 }
 
 body {
@@ -14,15 +19,43 @@ body {
     background-color: rgb(191, 191, 191);
 }
 
+/* NAVIGATION BEGIN */
+
 nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(161, 161, 161);
 }
 
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* ^^NAVIGATION END ^^ */
+
 main {
     background-color: burlywood;
     margin-bottom: 5%;
+    text-align: center;
 }
+
 footer {
     background-color: rgb(75, 75, 75);
     color: rgb(187, 186, 186);
