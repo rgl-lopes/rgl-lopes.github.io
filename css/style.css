@@ -1,8 +1,29 @@
+/* * {
+    margin: 0%;
+}
+*/
+
+/* ^^ staat voor gehele website, nog ff aanpassen of verwijderen */
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+}
+
 body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(191, 191, 191);
 }
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 161, 161);
+}
+
+main {
+    background-color: burlywood;
+}
+footer {
+    background-color: lightslategrey;
 }
