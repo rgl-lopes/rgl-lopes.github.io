@@ -16,8 +16,8 @@ header {
 body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../image/background.jpg);
-    background-color: rgb(45, 45, 45);
+    /* background-image: url(../image/background.jpg); */
+    background-color: rgb(202, 202, 202);
 }
 
 /* NAVIGATION BEGIN */
@@ -28,7 +28,7 @@ nav {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: right;
 }
 
 nav a{
@@ -65,12 +65,12 @@ nav li {
 /* ^^NAVIGATION END ^^ */
 
 main {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     margin-top: 10px;
     margin-bottom: 5%;
     margin-left: 20%;
     margin-right: 20%;
-    text-align: center;
+    text-align: Left;
 }
 
 footer {
