@@ -67,7 +67,7 @@ nav li {
     align-items: center;
 }
 
-.flex-container {
+.flex-header-left-side {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
