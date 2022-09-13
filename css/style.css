@@ -9,18 +9,30 @@ body {
     background-color: rgb(237, 237, 237);
 }
 
+/* SIDEMENU START */
+
+#menu-icon {
+    margin: auto;
+}
+
 aside {
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
+    color: white;
     position: fixed;
     width: 10%;
     border-radius: 0, 0, 10px, 10px;
     padding: 10px;
     text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+aside a:visited {
+    color: white;
 }
 
 aside a {
     text-decoration: none;
-    background-color: blueviolet;
 }
 
 aside li {
@@ -35,6 +47,8 @@ input:checked ~ aside {
 #toggle-side {
     display: none;
 }
+
+/* END SIDEMENU */
 
 main {
     background-color: green;

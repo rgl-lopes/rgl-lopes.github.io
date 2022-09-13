@@ -18,9 +18,12 @@
 </head>
 
 <body>
-  <header class="flex-container">
+  <header class="flex-header">
+    <div class="flex-container">
+    <label for="toggle-side" id="menu-icon"><img src="./image/menu-icon.png" width="25px" height="25px"></label>
     <h1>Home</h1>
-    <nav>
+    </div>
+    <nav class="flex-nav">
       <ul>
         <li><a href="./index.html" class="active">Home</a></li>
         <li><a href="./profile.html">Profiel</a></li>
@@ -31,7 +34,6 @@
     </nav>
   </header>
   <input type="checkbox" id="toggle-side" checked/>
-  <label for="toggle-side"><span class="material-symbols-outlined">menu</span></label>
   <aside class="side-toggle">
     <li>
       <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target="_blank">HZ OER</a>

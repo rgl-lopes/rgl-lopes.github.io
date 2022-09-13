@@ -54,11 +54,20 @@ nav li {
 
 /* FLEXBOX HEADER */
 
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
 }
 
 /* EINDE FLEXBOX HEADER */
