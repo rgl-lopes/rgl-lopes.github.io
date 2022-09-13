@@ -25,10 +25,10 @@ body {
 }
 
 aside {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(48, 48, 48);
     position: fixed;
     width: 200px;
-    min-width: 10;
+    min-width: 200px;
     border-radius: 0, 0, 10px, 10px;
     text-align: left;
     border-bottom-right-radius: 20px;
@@ -40,7 +40,7 @@ aside a:visited {
 }
 
 aside a:hover {
-    color: darkcyan;
+    color: rgb(0, 102, 255);
 }
 
 aside a {
