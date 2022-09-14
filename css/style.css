@@ -67,12 +67,14 @@ input:checked ~ aside {
 main {
     position: relative;
     min-height: 100vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     /* background-color: rgb(108, 108, 108); */
-    margin-top: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: Left;
+    text-align: center;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 footer {
