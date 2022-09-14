@@ -118,3 +118,10 @@ table {
 iframe {
     margin-left: 20%;
 }
+
+#nbsa {
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
