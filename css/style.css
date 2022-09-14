@@ -65,7 +65,7 @@ input:checked ~ aside {
 /* END SIDEMENU */
 
 main {
-    background-color: green;
+    background-color: rgb(108, 108, 108);
     margin-top: 10px;
     margin-left: 20%;
     margin-right: 20%;
@@ -76,7 +76,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(48, 48, 48);
     color: rgb(187, 186, 186);
     border-color: black;
     border-style: solid;
