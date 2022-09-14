@@ -32,7 +32,7 @@ aside {
     border-radius: 0, 0, 10px, 10px;
     text-align: left;
     border-bottom-right-radius: 20px;
-
+    z-index: 1;
 }
 
 aside a:visited {
@@ -72,8 +72,8 @@ main {
     margin-top: 2%;
     margin-bottom: 2%;
     /* background-color: rgb(108, 108, 108); */
-    text-align: center;
-    padding: 10px;
+    text-align: left;
+    padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
