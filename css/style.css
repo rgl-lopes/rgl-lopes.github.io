@@ -65,15 +65,19 @@ input:checked ~ aside {
 /* END SIDEMENU */
 
 main {
-    background-color: rgb(108, 108, 108);
+    position: relative;
+    min-height: 100vh;
+    /* background-color: rgb(108, 108, 108); */
     margin-top: 10px;
     margin-left: 20%;
     margin-right: 20%;
     text-align: Left;
+    padding: 10px;
 }
 
 footer {
-    position: fixed;
+    min-height: 50px;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
