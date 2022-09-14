@@ -74,6 +74,9 @@ main {
 
 footer {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     bottom: 0;
     width: 100%;
     background-color: rgb(48, 48, 48);
@@ -81,5 +84,13 @@ footer {
     border-color: black;
     border-style: solid;
     border-top-width: 3px; 
-    padding: 20px;
+}
+
+.footer-text {
+    padding-left: 30px;
+}
+
+footer img {
+    width: 125px;
+    margin-right: 20px;
 }
