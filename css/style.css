@@ -67,8 +67,8 @@ input:checked ~ aside {
 main {
     position: relative;
     min-height: 100vh;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: rgb(255, 255, 255);
