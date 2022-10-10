@@ -1,7 +1,11 @@
 #foto-ricardo {
-  position: absolute;
+  /* position: absolute;
   top: 15%;
-  right: 15%;
+  right: 15%; */
+  
+  float: right;
+  margin-top: 2%;
+  margin-right: 5%;
   border-radius: 100%;
   border: 1px solid black;
 }
