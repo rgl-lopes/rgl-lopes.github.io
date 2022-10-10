@@ -6,8 +6,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: black;
-    /* background-color: rgb(80, 80, 80); */
-    background-image: linear-gradient(to top right, rgb(0, 64, 255), rgb(17, 240, 221));
+    background-color: rgb(80, 80, 80);
+    /* background-image: linear-gradient(to top right, rgb(0, 64, 255), rgb(17, 240, 221));*/
 }
 
 /* SIDEMENU START */
