@@ -22,8 +22,10 @@ h2 {
   margin-bottom: 5px;
 }
 
-#stedin-img {
+img {
   float: right;
   margin: 10px;
+  margin-top: 0px;
   width: 40%;
+  max-height: 200px;
 }
